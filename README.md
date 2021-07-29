@@ -1,7 +1,15 @@
 # wuyuan-apollo
 
 todo
-npm安装后请使用如下graphql测试CRUD
+安装
+```
+npm install
+```
+启动
+```
+npm run start
+```
+启动服务后可以看到url，请按照如下配置测试graphql CRUD
 
 type格式
 ```graphql
