@@ -1,6 +1,5 @@
 # wuyuan-apollo
 
-todo
 安装
 ```
 npm install
