@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .container {
+
+            background: blue;
+            width: 1200px;
+            height: 500px;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        html {
+            height: 100%;
+        }
+    </style>
+    <script src="./axios.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <input type="button" value="1">
+
+    </div>
+</body>
+<script>
+    const axios = require('axios').default;
+    window.onload(() => {
+        axios.get('/api/todo/array')
+            .then(function (response) {
+                
+                console.log(response);
+            })
+            .catch(function (error) {
+                // handle error
+                console.log(error);
+            })
+    })
+</script>
+
+</html>
