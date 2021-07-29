@@ -8,7 +8,7 @@ npm install
 ```
 npm run start
 ```
-启动服务后可以看到url，请按照如下配置测试graphql CRUD
+启动服务后可以看到url，请根据如下配置测试graphql CRUD
 
 type格式
 ```graphql
