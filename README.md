@@ -4,15 +4,15 @@ todo
 npm安装后请使用如下graphql测试CRUD
 
 type格式
-```
+```graphql
   type Todo{
     id:String
     content:String
   }
 ```
 
-grahql示例
-```grahql
+graphql示例
+```graphql
 query{
   todoList {
     id
@@ -34,7 +34,7 @@ mutation($id:String) {
 ```
 
 variables示例
-```
+```json
 {
   "id":"b5cfc577-605f-493e-9b0a-ef5d10cf141f",
   "content":"内容内容内容内容内容"
